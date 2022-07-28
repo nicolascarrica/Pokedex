@@ -1,0 +1,23 @@
+{
+  "name": "pokedex",
+  "version": "1.0.0",
+  "description": "Pokedex para curso r/arg programa",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolascarrica/Pokedex.git"
+  },
+  "author": "Nico",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicolascarrica/Pokedex/issues"
+  },
+  "homepage": "https://github.com/nicolascarrica/Pokedex#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.0",
+    "jquery": "^3.6.0"
+  }
+}
