@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(245, 70, 70);
+    text-align: center;
+}
+
+#poke-card{
+    position: relative;
+    height: fit-content;
+    max-width: 400px;
+    border-radius: 4px;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: rgb(248, 210, 71);
+    border: 1px solid black;
+}
+
+#poke-card::before {
+    content: '';
+    background: radial-gradient(black 33%, transparent 33%);
+    background-size: 3px 3px;
+    border-radius: 4px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: -1;
+}
+
+#carta-inicial {
+    position: relative;
+    width: 180px;
+    margin: 10px auto;
+}
+
+#imagen-pokedex{
+    position: relative;
+    margin: 10px auto;
+}

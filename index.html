@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel='stylesheet' type='text/css' media='screen' href='src/styles.css'>
+
+    <title>Pokedex</title>
+</head>
+<body>
+    <div id="imagen-pokedex">
+        <img src="imagen/pokemon1.png" class="titulo-contenedor">
+    </div>
+    <div class="form-floating contenedor-pokemones-busqueda">
+        <select id="pokemon" class="formato-entrada-texto col-sm-2">
+            <option selected>Buscar el Pokemon...</option>
+        </select>     
+        <button id="seleccionar" class="btn btn-warning">Seleccionar</button>
+    </div>
+
+    <div id="poke-card" class="poke-card">
+        <div id="poke-nombre">Pokedex</div>
+        <img src="imagen/pokebola.png" id="carta-inicial" class="carta-inicial">
+    
+
+    
+        <div id="poke-id"></div>
+        <div id="poke-tipo"></div>
+        <div id="poke-estadisticas"></div>
+    </div>
+    
+    <script type="text/javascript" src="src/pokedex.js"></script>
+</body>
+</html>
