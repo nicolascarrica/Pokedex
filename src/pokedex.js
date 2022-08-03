@@ -60,8 +60,8 @@ document.querySelector('#seleccionar').addEventListener('click', () => {
     
 });
 
-async function mostrarDatosPokedex(pokemonSeleccionado){
-  await fetch(`${URLAPI}/${pokemonSeleccionado}`)
+function mostrarDatosPokedex(pokemonSeleccionado){
+ fetch(`${URLAPI}/${pokemonSeleccionado}`)
   .then(resultado => resultado.json())
   .then((datos) => {
       console.log(datos);
